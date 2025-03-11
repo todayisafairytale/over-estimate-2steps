@@ -1,0 +1,29 @@
+Number of response logs 24000
+[Epoch 1]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 72, in main
+    ncdm.train(datahub, "train", "test", valid_metrics=validate_metrics, batch_size=config['batch_size'],epoch=config['epoch'], weight_decay=0, lr=4e-3)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 59, in train
+    self._train(datahub=datahub, set_type=set_type,
+  File "d:\Git\Over-estimate\inscd\_base.py", line 50, in _train
+    unifier.train(datahub, set_type, self.extractor, self.inter_func, **kwargs)
+  File "d:\Git\Over-estimate\inscd\_unifier.py", line 47, in train
+    loss = loss_func(pred_r, r) + extra_loss
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\loss.py", line 1185, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\functional.py", line 3086, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)

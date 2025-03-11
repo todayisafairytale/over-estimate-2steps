@@ -1,0 +1,16 @@
+{"time":"2025-03-07T22:23:35.9300002+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-07T22:23:35.9300002+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250307_222335-vapc0c79\\logs\\debug-core.log"}
+{"time":"2025-03-07T22:23:36.6512042+08:00","level":"INFO","msg":"created new stream","id":"vapc0c79"}
+{"time":"2025-03-07T22:23:36.6518207+08:00","level":"INFO","msg":"stream: started","id":"vapc0c79"}
+{"time":"2025-03-07T22:23:36.6518207+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"vapc0c79"}
+{"time":"2025-03-07T22:23:36.6518207+08:00","level":"INFO","msg":"sender: started","stream_id":"vapc0c79"}
+{"time":"2025-03-07T22:23:36.6523444+08:00","level":"INFO","msg":"handler: started","stream_id":"vapc0c79"}
+{"time":"2025-03-07T22:23:37.7410602+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T22:24:14.6686819+08:00","level":"INFO","msg":"stream: closing","id":"vapc0c79"}
+{"time":"2025-03-07T22:24:14.6686819+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T22:24:14.6821997+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T22:24:19.1544873+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T22:24:19.9641943+08:00","level":"INFO","msg":"handler: closed","stream_id":"vapc0c79"}
+{"time":"2025-03-07T22:24:19.9641943+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vapc0c79"}
+{"time":"2025-03-07T22:24:19.9641943+08:00","level":"INFO","msg":"sender: closed","stream_id":"vapc0c79"}
+{"time":"2025-03-07T22:24:19.9641943+08:00","level":"INFO","msg":"stream: closed","id":"vapc0c79"}

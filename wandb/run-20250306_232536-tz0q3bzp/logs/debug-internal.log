@@ -1,0 +1,19 @@
+{"time":"2025-03-06T23:25:36.208808+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-06T23:25:36.208808+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250306_232536-tz0q3bzp\\logs\\debug-core.log"}
+{"time":"2025-03-06T23:25:36.3299733+08:00","level":"INFO","msg":"created new stream","id":"tz0q3bzp"}
+{"time":"2025-03-06T23:25:36.3299733+08:00","level":"INFO","msg":"stream: started","id":"tz0q3bzp"}
+{"time":"2025-03-06T23:25:36.3309959+08:00","level":"INFO","msg":"handler: started","stream_id":"tz0q3bzp"}
+{"time":"2025-03-06T23:25:36.3309959+08:00","level":"INFO","msg":"sender: started","stream_id":"tz0q3bzp"}
+{"time":"2025-03-06T23:25:36.3309959+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tz0q3bzp"}
+{"time":"2025-03-06T23:25:37.0692577+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T23:26:00.3710436+08:00","level":"INFO","msg":"stream: closing","id":"tz0q3bzp"}
+{"time":"2025-03-06T23:26:00.372392+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T23:26:00.3734509+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T23:26:00.8569632+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-03-06T23:26:00.8569632+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-03-06T23:26:00.8569632+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-03-06T23:26:01.4546436+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T23:26:01.9999817+08:00","level":"INFO","msg":"handler: closed","stream_id":"tz0q3bzp"}
+{"time":"2025-03-06T23:26:01.9999817+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tz0q3bzp"}
+{"time":"2025-03-06T23:26:01.9999817+08:00","level":"INFO","msg":"sender: closed","stream_id":"tz0q3bzp"}
+{"time":"2025-03-06T23:26:02.0012405+08:00","level":"INFO","msg":"stream: closed","id":"tz0q3bzp"}

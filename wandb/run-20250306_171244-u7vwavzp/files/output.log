@@ -1,0 +1,23 @@
+Number of response logs 24000
+[Epoch 1]
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.43it/s]
+Average loss: 1.5573638343811036
+Evaluating: 100%|██████████████████████████████████████████████████| 19/19 [00:00<00:00, 102.28it/s]
+{'acc': 3.92, 'auc': 50.2}
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 72, in main
+    ncdm.train(datahub, "train", "test", valid_metrics=validate_metrics, batch_size=config['batch_size'],epoch=config['epoch'], weight_decay=0, lr=4e-3)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 59, in train
+    self._train(datahub=datahub, set_type=set_type,
+  File "d:\Git\Over-estimate\inscd\_base.py", line 55, in _train
+    self.diff_list.append(self.get_attribute('diff'))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 94, in get_attribute
+    self.extractor["knowledge"]).detach().cpu().numpy()
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\extractor\over_estimate.py", line 42, in __getitem__
+    raise ValueError("We can only detach {} from embeddings.".format(self.__map.keys()))
+ValueError: We can only detach dict_keys(['over_estimate', 'diff', 'disc']) from embeddings.

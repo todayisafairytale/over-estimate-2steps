@@ -1,0 +1,19 @@
+{"time":"2025-03-05T23:28:32.2580745+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-05T23:28:32.2580745+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250305_232832-gapurm8z\\logs\\debug-core.log"}
+{"time":"2025-03-05T23:28:32.3985856+08:00","level":"INFO","msg":"created new stream","id":"gapurm8z"}
+{"time":"2025-03-05T23:28:32.3985856+08:00","level":"INFO","msg":"stream: started","id":"gapurm8z"}
+{"time":"2025-03-05T23:28:32.3985856+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"gapurm8z"}
+{"time":"2025-03-05T23:28:32.3991058+08:00","level":"INFO","msg":"handler: started","stream_id":"gapurm8z"}
+{"time":"2025-03-05T23:28:32.3991058+08:00","level":"INFO","msg":"sender: started","stream_id":"gapurm8z"}
+{"time":"2025-03-05T23:28:33.1687772+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T23:28:37.4248181+08:00","level":"INFO","msg":"stream: closing","id":"gapurm8z"}
+{"time":"2025-03-05T23:28:37.4248181+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T23:28:37.4259571+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T23:28:37.6982575+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2025-03-05T23:28:37.6982575+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2025-03-05T23:28:37.6982575+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2025-03-05T23:28:38.3667389+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T23:28:39.768864+08:00","level":"INFO","msg":"handler: closed","stream_id":"gapurm8z"}
+{"time":"2025-03-05T23:28:39.768864+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gapurm8z"}
+{"time":"2025-03-05T23:28:39.768864+08:00","level":"INFO","msg":"sender: closed","stream_id":"gapurm8z"}
+{"time":"2025-03-05T23:28:39.7699301+08:00","level":"INFO","msg":"stream: closed","id":"gapurm8z"}

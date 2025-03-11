@@ -1,0 +1,71 @@
+Number of response logs 24000
+[Epoch 1]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.22it/s]
+Average loss: 1.5712036037445067
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 70.50it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 2]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.65it/s]
+Average loss: 1.5706070645650227
+Evaluating: 100%|██████████████████████████████████████████████████| 19/19 [00:00<00:00, 101.89it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 3]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.47it/s]
+Average loss: 1.5706070168813069
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 58.37it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 4]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.25it/s]
+Average loss: 1.57060697555542
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 97.51it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 5]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.38it/s]
+Average loss: 1.570606961250305
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 97.57it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 6]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 38.42it/s]
+Average loss: 1.5706069453557332
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 97.52it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 7]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 37.67it/s]
+Average loss: 1.5706069310506185
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 94.89it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 8]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 40.52it/s]
+Average loss: 1.5706069374084473
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 99.58it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 9]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 39.98it/s]
+Average loss: 1.5706069215138754
+Evaluating: 100%|███████████████████████████████████████████████████| 19/19 [00:00<00:00, 99.09it/s]
+{'acc': 3.92, 'auc': 50.0}
+[Epoch 10]
+Training:   0%|                                                              | 0/75 [00:00<?, ?it/s]C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 38.73it/s]
+Average loss: 1.570606878598531
+Evaluating: 100%|██████████████████████████████████████████████████| 19/19 [00:00<00:00, 101.73it/s]
+{'acc': 3.92, 'auc': 50.0}

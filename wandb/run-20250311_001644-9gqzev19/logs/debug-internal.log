@@ -1,0 +1,17 @@
+{"time":"2025-03-11T00:16:44.8758226+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-11T00:16:44.8768224+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250311_001644-9gqzev19\\logs\\debug-core.log"}
+{"time":"2025-03-11T00:16:45.0547914+08:00","level":"INFO","msg":"created new stream","id":"9gqzev19"}
+{"time":"2025-03-11T00:16:45.0547914+08:00","level":"INFO","msg":"stream: started","id":"9gqzev19"}
+{"time":"2025-03-11T00:16:45.0547914+08:00","level":"INFO","msg":"handler: started","stream_id":"9gqzev19"}
+{"time":"2025-03-11T00:16:45.0547914+08:00","level":"INFO","msg":"sender: started","stream_id":"9gqzev19"}
+{"time":"2025-03-11T00:16:45.0547914+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"9gqzev19"}
+{"time":"2025-03-11T00:16:45.9864893+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T00:17:42.2394657+08:00","level":"INFO","msg":"stream: closing","id":"9gqzev19"}
+{"time":"2025-03-11T00:17:42.2394657+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T00:17:42.2409981+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T00:17:43.3296577+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T00:17:53.0543918+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/10235102479-east-china-normal-university/over-estimate/9gqzev19/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-11T00:17:56.5207698+08:00","level":"INFO","msg":"handler: closed","stream_id":"9gqzev19"}
+{"time":"2025-03-11T00:17:56.5207698+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9gqzev19"}
+{"time":"2025-03-11T00:17:56.5208736+08:00","level":"INFO","msg":"sender: closed","stream_id":"9gqzev19"}
+{"time":"2025-03-11T00:17:56.5210559+08:00","level":"INFO","msg":"stream: closed","id":"9gqzev19"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-10T21:39:03.7469002+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-10T21:39:03.7474223+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250310_213903-dwao862w\\logs\\debug-core.log"}
+{"time":"2025-03-10T21:39:03.8891658+08:00","level":"INFO","msg":"created new stream","id":"dwao862w"}
+{"time":"2025-03-10T21:39:03.8891658+08:00","level":"INFO","msg":"stream: started","id":"dwao862w"}
+{"time":"2025-03-10T21:39:03.8891658+08:00","level":"INFO","msg":"handler: started","stream_id":"dwao862w"}
+{"time":"2025-03-10T21:39:03.8891658+08:00","level":"INFO","msg":"sender: started","stream_id":"dwao862w"}
+{"time":"2025-03-10T21:39:03.8891658+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"dwao862w"}
+{"time":"2025-03-10T21:39:04.508102+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T21:39:50.9820265+08:00","level":"INFO","msg":"stream: closing","id":"dwao862w"}
+{"time":"2025-03-10T21:39:50.9820265+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T21:39:50.9870742+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T21:39:52.2494606+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T21:39:52.6837249+08:00","level":"INFO","msg":"handler: closed","stream_id":"dwao862w"}
+{"time":"2025-03-10T21:39:52.6837249+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dwao862w"}
+{"time":"2025-03-10T21:39:52.6842328+08:00","level":"INFO","msg":"sender: closed","stream_id":"dwao862w"}
+{"time":"2025-03-10T21:39:52.6846766+08:00","level":"INFO","msg":"stream: closed","id":"dwao862w"}

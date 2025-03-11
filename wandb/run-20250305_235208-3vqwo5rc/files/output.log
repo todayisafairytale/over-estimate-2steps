@@ -1,0 +1,19 @@
+Number of response logs 24001
+[Epoch 1]
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 72, in main
+    ncdm.train(datahub, "train", "test", valid_metrics=validate_metrics, batch_size=config['batch_size'],epoch=config['epoch'], weight_decay=0, lr=4e-3)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 59, in train
+    self._train(datahub=datahub, set_type=set_type,
+  File "d:\Git\Over-estimate\inscd\_base.py", line 50, in _train
+    unifier.train(datahub, set_type, self.extractor, self.inter_func, **kwargs)
+  File "d:\Git\Over-estimate\inscd\_unifier.py", line 12, in train
+    dataloader = datahub.to_dataloader(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\datahub.py", line 180, in to_dataloader
+    torch.tensor(self.S[np.array(tmp_set[:,0],dtype=int),:],dtype=dtype)
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'ellipsis' object is not subscriptable

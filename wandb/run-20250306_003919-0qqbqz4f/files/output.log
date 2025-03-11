@@ -1,0 +1,39 @@
+Number of response logs 24000
+[Epoch 1]
+Training: 100%|█████████████████████████████████████████████████████| 75/75 [00:01<00:00, 58.02it/s]
+Average loss: 0.7113987278938293
+Evaluating: 100%|██████████████████████████████████████████████████| 19/19 [00:00<00:00, 122.40it/s]
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 72, in main
+    ncdm.train(datahub, "train", "test", valid_metrics=validate_metrics, batch_size=config['batch_size'],epoch=config['epoch'], weight_decay=0, lr=4e-3)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 59, in train
+    self._train(datahub=datahub, set_type=set_type,
+  File "d:\Git\Over-estimate\inscd\_base.py", line 52, in _train
+    self.score(datahub, valid_set_type, valid_metrics, **kwargs)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 69, in score
+    return self._score(datahub=datahub, set_type=set_type, metrics=metrics, batch_size=batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_listener.py", line 33, in wrapper
+    result = self.__format(func(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_base.py", line 68, in _score
+    return ruler(self, datahub, set_type, pred_r, metrics)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_ruler.py", line 156, in __call__
+    results[metric] = self.__method_map[metric](true_r, pred_r)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_ruler.py", line 35, in area_under_curve
+    return roc_auc_score(true_r, pred_r)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\_ranking.py", line 648, in roc_auc_score
+    return _average_binary_score(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin.DESKTOP-7USASVH\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\_base.py", line 73, in _average_binary_score
+    raise ValueError("{0} format is not supported".format(y_type))
+ValueError: continuous format is not supported

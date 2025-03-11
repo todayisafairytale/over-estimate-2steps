@@ -1,0 +1,141 @@
+Number of response logs 24000
+[Epoch 1]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 80.88it/s]
+Average loss: 1.6516957269764194
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 181.33it/s]
+{'acc': 19.9, 'auc': 50.47}
+[Epoch 2]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 80.13it/s]
+Average loss: 1.6280337949438641
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 178.15it/s]
+{'acc': 19.9, 'auc': 50.04}
+[Epoch 3]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 79.35it/s]
+Average loss: 1.620294529174765
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 125.21it/s]
+{'acc': 20.29, 'auc': 49.94}
+[Epoch 4]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 77.82it/s]
+Average loss: 1.617164603130271
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 179.12it/s]
+{'acc': 19.9, 'auc': 50.6}
+[Epoch 5]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 80.68it/s]
+Average loss: 1.6187038711334267
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 177.31it/s]
+{'acc': 20.21, 'auc': 49.64}
+[Epoch 6]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 80.86it/s]
+Average loss: 1.6172195934380094
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 187.08it/s]
+{'acc': 20.29, 'auc': 49.56}
+[Epoch 7]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 79.93it/s]
+Average loss: 1.616521016806364
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 160.37it/s]
+{'acc': 20.15, 'auc': 50.23}
+[Epoch 8]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 71.61it/s]
+Average loss: 1.6156663638353348
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 137.26it/s]
+{'acc': 19.9, 'auc': 50.72}
+[Epoch 9]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 53.99it/s]
+Average loss: 1.615768182228009
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 134.37it/s]
+{'acc': 20.29, 'auc': 50.2}
+[Epoch 10]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 66.31it/s]
+Average loss: 1.6147971985240777
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 149.08it/s]
+{'acc': 20.42, 'auc': 50.44}
+[Epoch 11]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 63.39it/s]
+Average loss: 1.6137106103325884
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 155.54it/s]
+{'acc': 19.9, 'auc': 49.52}
+[Epoch 12]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 58.96it/s]
+Average loss: 1.613801241759211
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 105.09it/s]
+{'acc': 19.96, 'auc': 49.52}
+[Epoch 13]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:03<00:00, 45.23it/s]
+Average loss: 1.6126905504924556
+Evaluating: 100%|███████████████████████████████████████████████████| 38/38 [00:00<00:00, 42.96it/s]
+{'acc': 19.9, 'auc': 50.28}
+[Epoch 14]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:04<00:00, 32.09it/s]
+Average loss: 1.6121839984878898
+Evaluating: 100%|███████████████████████████████████████████████████| 38/38 [00:00<00:00, 64.43it/s]
+{'acc': 20.33, 'auc': 50.46}
+[Epoch 15]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 60.22it/s]
+Average loss: 1.6114667306654156
+Evaluating: 100%|███████████████████████████████████████████████████| 38/38 [00:00<00:00, 70.67it/s]
+{'acc': 20.04, 'auc': 49.83}
+[Epoch 16]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:03<00:00, 44.46it/s]
+Average loss: 1.611633654317508
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 130.42it/s]
+{'acc': 19.12, 'auc': 49.76}
+[Epoch 17]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 61.32it/s]
+Average loss: 1.6106968715724845
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 165.66it/s]
+{'acc': 20.02, 'auc': 49.63}
+[Epoch 18]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 70.95it/s]
+Average loss: 1.6109538711731632
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 176.00it/s]
+{'acc': 19.69, 'auc': 49.85}
+[Epoch 19]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:02<00:00, 68.91it/s]
+Average loss: 1.6099669179879128
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 186.01it/s]
+{'acc': 19.54, 'auc': 49.82}
+[Epoch 20]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 77.34it/s]
+Average loss: 1.6091290886017184
+Evaluating: 100%|██████████████████████████████████████████████████| 38/38 [00:00<00:00, 180.18it/s]
+{'acc': 20.04, 'auc': 49.49}

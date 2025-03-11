@@ -1,0 +1,16 @@
+{"time":"2025-03-11T00:18:49.065568+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-11T00:18:49.0665673+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250311_001849-f60g5t8o\\logs\\debug-core.log"}
+{"time":"2025-03-11T00:18:49.2345801+08:00","level":"INFO","msg":"created new stream","id":"f60g5t8o"}
+{"time":"2025-03-11T00:18:49.2345801+08:00","level":"INFO","msg":"stream: started","id":"f60g5t8o"}
+{"time":"2025-03-11T00:18:49.235262+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"f60g5t8o"}
+{"time":"2025-03-11T00:18:49.235262+08:00","level":"INFO","msg":"handler: started","stream_id":"f60g5t8o"}
+{"time":"2025-03-11T00:18:49.2357722+08:00","level":"INFO","msg":"sender: started","stream_id":"f60g5t8o"}
+{"time":"2025-03-11T00:18:49.9053335+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T00:19:43.8309499+08:00","level":"INFO","msg":"stream: closing","id":"f60g5t8o"}
+{"time":"2025-03-11T00:19:43.8309499+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T00:19:43.8343519+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T00:19:44.7791473+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T00:19:45.3511961+08:00","level":"INFO","msg":"handler: closed","stream_id":"f60g5t8o"}
+{"time":"2025-03-11T00:19:45.3511961+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"f60g5t8o"}
+{"time":"2025-03-11T00:19:45.3511961+08:00","level":"INFO","msg":"sender: closed","stream_id":"f60g5t8o"}
+{"time":"2025-03-11T00:19:45.3517269+08:00","level":"INFO","msg":"stream: closed","id":"f60g5t8o"}

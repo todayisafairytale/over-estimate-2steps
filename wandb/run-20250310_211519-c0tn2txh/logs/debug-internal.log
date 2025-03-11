@@ -1,0 +1,16 @@
+{"time":"2025-03-10T21:15:19.5611397+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-10T21:15:19.561664+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250310_211519-c0tn2txh\\logs\\debug-core.log"}
+{"time":"2025-03-10T21:15:19.6989952+08:00","level":"INFO","msg":"created new stream","id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:19.6989952+08:00","level":"INFO","msg":"stream: started","id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:19.7003746+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:19.7003746+08:00","level":"INFO","msg":"sender: started","stream_id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:19.7003746+08:00","level":"INFO","msg":"handler: started","stream_id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:20.372287+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T21:15:26.4348993+08:00","level":"INFO","msg":"stream: closing","id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:26.4348993+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T21:15:26.4355467+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T21:15:27.6331006+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T21:15:28.3074723+08:00","level":"INFO","msg":"handler: closed","stream_id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:28.3074723+08:00","level":"INFO","msg":"sender: closed","stream_id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:28.3074723+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c0tn2txh"}
+{"time":"2025-03-10T21:15:28.3081208+08:00","level":"INFO","msg":"stream: closed","id":"c0tn2txh"}

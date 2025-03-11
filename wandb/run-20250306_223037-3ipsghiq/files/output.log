@@ -1,0 +1,14 @@
+Number of response logs 24000
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 77, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 71, in main
+    ncdm.build(device=config['device'])
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 42, in build
+    self.inter_func = NCD_IF(knowledge_num=self.knowledge_num,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\interfunc\ncd.py", line 53, in __init__
+    print('-->name:', name, '-->grad_requirs:', parms.requires_grad, '--weight', torch.mean(parms.data), ' -->grad_value:', torch.mean(parms.grad))
+                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: mean(): argument 'input' (position 1) must be Tensor, not NoneType

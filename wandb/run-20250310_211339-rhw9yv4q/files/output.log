@@ -1,0 +1,11 @@
+Number of response logs 24000
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 70, in main
+    ncdm.build(device=config['device'])
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 34, in build
+    self.extractor = Over_estimate(
+                     ^^^^^^^^^^^^^^
+TypeError: Over_estimate.__init__() missing 1 required positional argument: 'theta_tuda'

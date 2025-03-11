@@ -1,0 +1,14 @@
+Number of response logs 24000
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 71, in main
+    ncdm.build(device=config['device'])
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 34, in build
+    self.extractor = Over_estimate(
+                     ^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\extractor\over_estimate.py", line 16, in __init__
+    self.theta=nn.Parameter(torch.Tensor(0.0))
+                            ^^^^^^^^^^^^^^^^^
+TypeError: new(): data must be a sequence (got float)

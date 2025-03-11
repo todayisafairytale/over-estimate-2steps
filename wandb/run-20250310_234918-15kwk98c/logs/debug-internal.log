@@ -1,0 +1,16 @@
+{"time":"2025-03-10T23:49:18.3104782+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-10T23:49:18.3104782+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250310_234918-15kwk98c\\logs\\debug-core.log"}
+{"time":"2025-03-10T23:49:18.448712+08:00","level":"INFO","msg":"created new stream","id":"15kwk98c"}
+{"time":"2025-03-10T23:49:18.448712+08:00","level":"INFO","msg":"stream: started","id":"15kwk98c"}
+{"time":"2025-03-10T23:49:18.4500043+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"15kwk98c"}
+{"time":"2025-03-10T23:49:18.4505229+08:00","level":"INFO","msg":"sender: started","stream_id":"15kwk98c"}
+{"time":"2025-03-10T23:49:18.4505229+08:00","level":"INFO","msg":"handler: started","stream_id":"15kwk98c"}
+{"time":"2025-03-10T23:49:19.3567163+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T23:50:02.7662301+08:00","level":"INFO","msg":"stream: closing","id":"15kwk98c"}
+{"time":"2025-03-10T23:50:02.7662301+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T23:50:02.7671444+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T23:50:04.6236389+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T23:50:05.2343034+08:00","level":"INFO","msg":"handler: closed","stream_id":"15kwk98c"}
+{"time":"2025-03-10T23:50:05.2343034+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"15kwk98c"}
+{"time":"2025-03-10T23:50:05.2343034+08:00","level":"INFO","msg":"sender: closed","stream_id":"15kwk98c"}
+{"time":"2025-03-10T23:50:05.2355573+08:00","level":"INFO","msg":"stream: closed","id":"15kwk98c"}

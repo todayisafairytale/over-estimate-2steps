@@ -1,0 +1,31 @@
+Number of response logs 24000
+[Epoch 1]
+Training:   0%|                                                             | 0/150 [00:00<?, ?it/s]d:\Git\Over-estimate\inscd\_unifier.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  r:torch.Tensor=torch.tensor(r,dtype=torch.int64)
+Training: 100%|███████████████████████████████████████████████████| 150/150 [00:01<00:00, 78.61it/s]
+Average loss: 1.6516957269764194
+Traceback (most recent call last):
+  File "d:\Git\Over-estimate\run.py", line 76, in <module>
+    sys.exit(main(config_dict))
+             ^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\run.py", line 71, in main
+    ncdm.train(datahub, "train", "test", valid_metrics=validate_metrics, batch_size=config['batch_size'],epoch=config['epoch'], lr=2e-3)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 59, in train
+    self._train(datahub=datahub, set_type=set_type,
+  File "d:\Git\Over-estimate\inscd\_base.py", line 52, in _train
+    self.score(datahub, valid_set_type, valid_metrics, **kwargs)
+  File "d:\Git\Over-estimate\inscd\models\static\neural\ncdm.py", line 71, in score
+    return self._score(datahub=datahub, set_type=set_type, metrics=metrics, batch_size=batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_listener.py", line 33, in wrapper
+    result = self.__format(func(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_base.py", line 66, in _score
+    pred_r = unifier.predict(datahub, set_type, self.extractor, self.inter_func, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\_unifier.py", line 64, in predict
+    dataloader = datahub.to_dataloader(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Git\Over-estimate\inscd\datahub.py", line 172, in to_dataloader
+    raise ValueError("Dataset \"{}\" does not exist. If you create your new dataset via \"load_data()\", "
+ValueError: Dataset "test" does not exist. If you create your new dataset via "load_data()", the parameter "dataset" is one of the dict_keys(['step2', 'step1', 'train', 'valid'])

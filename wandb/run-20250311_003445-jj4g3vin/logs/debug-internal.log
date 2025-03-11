@@ -1,0 +1,16 @@
+{"time":"2025-03-11T00:34:45.2095987+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-11T00:34:45.2095987+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250311_003445-jj4g3vin\\logs\\debug-core.log"}
+{"time":"2025-03-11T00:34:45.3558602+08:00","level":"INFO","msg":"created new stream","id":"jj4g3vin"}
+{"time":"2025-03-11T00:34:45.3564134+08:00","level":"INFO","msg":"stream: started","id":"jj4g3vin"}
+{"time":"2025-03-11T00:34:45.3564134+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"jj4g3vin"}
+{"time":"2025-03-11T00:34:45.3564134+08:00","level":"INFO","msg":"handler: started","stream_id":"jj4g3vin"}
+{"time":"2025-03-11T00:34:45.3564134+08:00","level":"INFO","msg":"sender: started","stream_id":"jj4g3vin"}
+{"time":"2025-03-11T00:34:46.1506129+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T00:35:29.4737294+08:00","level":"INFO","msg":"stream: closing","id":"jj4g3vin"}
+{"time":"2025-03-11T00:35:29.4737294+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T00:35:29.4747246+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T00:35:30.5043812+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T00:35:31.1580318+08:00","level":"INFO","msg":"handler: closed","stream_id":"jj4g3vin"}
+{"time":"2025-03-11T00:35:31.1580318+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jj4g3vin"}
+{"time":"2025-03-11T00:35:31.1580318+08:00","level":"INFO","msg":"sender: closed","stream_id":"jj4g3vin"}
+{"time":"2025-03-11T00:35:31.1588001+08:00","level":"INFO","msg":"stream: closed","id":"jj4g3vin"}

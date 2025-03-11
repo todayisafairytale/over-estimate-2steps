@@ -1,0 +1,16 @@
+{"time":"2025-03-07T22:52:51.1013383+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-07T22:52:51.1021861+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250307_225250-j1rkms2g\\logs\\debug-core.log"}
+{"time":"2025-03-07T22:52:51.2592177+08:00","level":"INFO","msg":"created new stream","id":"j1rkms2g"}
+{"time":"2025-03-07T22:52:51.2603575+08:00","level":"INFO","msg":"handler: started","stream_id":"j1rkms2g"}
+{"time":"2025-03-07T22:52:51.2603575+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"j1rkms2g"}
+{"time":"2025-03-07T22:52:51.2603575+08:00","level":"INFO","msg":"stream: started","id":"j1rkms2g"}
+{"time":"2025-03-07T22:52:51.2603575+08:00","level":"INFO","msg":"sender: started","stream_id":"j1rkms2g"}
+{"time":"2025-03-07T22:52:53.1837408+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T22:53:24.492025+08:00","level":"INFO","msg":"stream: closing","id":"j1rkms2g"}
+{"time":"2025-03-07T22:53:24.4925332+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T22:53:24.4955189+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T22:53:26.2231828+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T22:53:27.7653196+08:00","level":"INFO","msg":"handler: closed","stream_id":"j1rkms2g"}
+{"time":"2025-03-07T22:53:27.7653196+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j1rkms2g"}
+{"time":"2025-03-07T22:53:27.7653196+08:00","level":"INFO","msg":"sender: closed","stream_id":"j1rkms2g"}
+{"time":"2025-03-07T22:53:27.7661804+08:00","level":"INFO","msg":"stream: closed","id":"j1rkms2g"}

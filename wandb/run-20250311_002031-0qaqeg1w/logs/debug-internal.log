@@ -1,0 +1,17 @@
+{"time":"2025-03-11T00:20:31.0458255+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-11T00:20:31.0458255+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250311_002031-0qaqeg1w\\logs\\debug-core.log"}
+{"time":"2025-03-11T00:20:31.2046477+08:00","level":"INFO","msg":"created new stream","id":"0qaqeg1w"}
+{"time":"2025-03-11T00:20:31.2051638+08:00","level":"INFO","msg":"stream: started","id":"0qaqeg1w"}
+{"time":"2025-03-11T00:20:31.205756+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"0qaqeg1w"}
+{"time":"2025-03-11T00:20:31.205756+08:00","level":"INFO","msg":"handler: started","stream_id":"0qaqeg1w"}
+{"time":"2025-03-11T00:20:31.205756+08:00","level":"INFO","msg":"sender: started","stream_id":"0qaqeg1w"}
+{"time":"2025-03-11T00:20:32.0499715+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T00:21:09.2372941+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/10235102479-east-china-normal-university/over-estimate/0qaqeg1w/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-11T00:21:16.9405329+08:00","level":"INFO","msg":"stream: closing","id":"0qaqeg1w"}
+{"time":"2025-03-11T00:21:16.9405329+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T00:21:16.942848+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T00:21:18.0553709+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T00:21:19.3766071+08:00","level":"INFO","msg":"sender: closed","stream_id":"0qaqeg1w"}
+{"time":"2025-03-11T00:21:19.3766071+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0qaqeg1w"}
+{"time":"2025-03-11T00:21:19.3766071+08:00","level":"INFO","msg":"handler: closed","stream_id":"0qaqeg1w"}
+{"time":"2025-03-11T00:21:19.3771186+08:00","level":"INFO","msg":"stream: closed","id":"0qaqeg1w"}

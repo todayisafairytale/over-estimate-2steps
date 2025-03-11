@@ -1,0 +1,15 @@
+{
+  "dataset": "real",
+  "files": {
+    "q_matrix": "q_matrix.csv",
+    "response": "response.csv",
+    "S":"S.csv",
+    "theta_tuda":"theta_tuda.csv",
+    "response_tuda":"response_tuda.csv"
+  },
+  "info": {
+    "student_num": 1000,
+    "exercise_num": 24,
+    "knowledge_num": 3
+  }
+}
