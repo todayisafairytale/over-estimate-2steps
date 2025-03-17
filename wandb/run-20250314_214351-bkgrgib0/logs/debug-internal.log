@@ -1,0 +1,16 @@
+{"time":"2025-03-14T21:43:51.8974933+08:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2025-03-14T21:43:51.8980178+08:00","level":"INFO","msg":"created symlink","path":"D:\\Git\\Over-estimate\\wandb\\run-20250314_214351-bkgrgib0\\logs\\debug-core.log"}
+{"time":"2025-03-14T21:43:52.0625302+08:00","level":"INFO","msg":"created new stream","id":"bkgrgib0"}
+{"time":"2025-03-14T21:43:52.0630978+08:00","level":"INFO","msg":"stream: started","id":"bkgrgib0"}
+{"time":"2025-03-14T21:43:52.0636304+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bkgrgib0"}
+{"time":"2025-03-14T21:43:52.064149+08:00","level":"INFO","msg":"handler: started","stream_id":"bkgrgib0"}
+{"time":"2025-03-14T21:43:52.064149+08:00","level":"INFO","msg":"sender: started","stream_id":"bkgrgib0"}
+{"time":"2025-03-14T21:43:52.9692977+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-14T21:44:37.8358863+08:00","level":"INFO","msg":"stream: closing","id":"bkgrgib0"}
+{"time":"2025-03-14T21:44:37.8358863+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-14T21:44:37.8358863+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-14T21:44:38.9075604+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-14T21:44:39.658011+08:00","level":"INFO","msg":"handler: closed","stream_id":"bkgrgib0"}
+{"time":"2025-03-14T21:44:39.6585635+08:00","level":"INFO","msg":"sender: closed","stream_id":"bkgrgib0"}
+{"time":"2025-03-14T21:44:39.6585635+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bkgrgib0"}
+{"time":"2025-03-14T21:44:39.6588175+08:00","level":"INFO","msg":"stream: closed","id":"bkgrgib0"}

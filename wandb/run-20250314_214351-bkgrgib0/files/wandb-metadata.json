@@ -1,0 +1,32 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "3.12.4",
+  "startedAt":  "2025-03-14T13:43:51.886581Z",
+  "program":  "d:\\Git\\Over-estimate\\run.py",
+  "codePath":  "run.py",
+  "git":  {
+    "remote":  "git@github.com:todayisafairytale/over-estimate-2steps.git",
+    "commit":  "36e6cd9ecbaa5100980a4a65c8a36fc19daa6871"
+  },
+  "email":  "10235102479@stu.ecnu.edu.cn",
+  "root":  "D:\\Git\\Over-estimate",
+  "host":  "DESKTOP-7USASVH",
+  "username":  "admin",
+  "executable":  "C:\\Users\\admin.DESKTOP-7USASVH\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "codePathLocal":  "run.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "128024834048",
+      "used":  "84512256000"
+    }
+  },
+  "memory":  {
+    "total":  "12617756672"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  4
+  }
+}

@@ -1,13 +1,12 @@
 import pandas as pd
 from random import randint
-df = pd.read_csv("./datasets/real/response_tuda.csv",header=None)
-last_column = df.iloc[:, 2]
+df1 = pd.read_csv("./datasets/real/response.csv",header=None)
+df2=pd.read_csv("./datasets/real/real_R_tuda.csv",header=None)
+last_column = df1.iloc[:, 0]
 new_column = []
+for item in last_column:
+    new_column.append(item)
 
-for value in last_column:
-     new_column.append(randint(0,4))
+df2.iloc[:,0] = new_column
 
-df.iloc[:, 2] = new_column
-
-# 保存修改后的 CSV 文件
-df.to_csv('datasets/real/response_tuda.csv', index=False)
+df2.to_csv('datasets/real/real_R_tuda.csv', index=False)
